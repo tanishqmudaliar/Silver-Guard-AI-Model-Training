@@ -269,12 +269,9 @@ Examples:
   Hey bro, dinner tonight?
         """
     )
-    p.add_argument("--model",      default="silver_guard.onnx",
-                   help="Path to ONNX model file (default: silver_guard.onnx)")
-    p.add_argument("--vocab",      default="vocab.txt",
-                   help="Path to BERT vocab.txt (default: vocab.txt)")
-    p.add_argument("--max-length", type=int, default=128,
-                   help="Max token sequence length (default: 128)")
+    p.add_argument("--model", default="model/silver_guard.onnx", help="Path to ONNX model file (default: silver_guard.onnx)")
+    p.add_argument("--vocab", default="model/vocab.txt", help="Path to BERT vocab.txt (default: vocab.txt)")
+    p.add_argument("--max-length", type=int, default=128, help="Max token sequence length (default: 128)")
     return p.parse_args()
 
 
