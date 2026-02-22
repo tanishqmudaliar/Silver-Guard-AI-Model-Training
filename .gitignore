@@ -1,0 +1,5 @@
+data/
+model/silver_guard_backup.zip
+model/silver_guard_flutter.zip
+kaggle.json
+*.env
