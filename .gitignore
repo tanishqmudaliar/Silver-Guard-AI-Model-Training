@@ -5,3 +5,4 @@ model/silver_guard_flutter.zip
 kaggle.json
 *.env
 .venv/
+model/silver_guard.onnx
