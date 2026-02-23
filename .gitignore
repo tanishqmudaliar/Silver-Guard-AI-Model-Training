@@ -1,8 +1,21 @@
+# ----------------------------
+# Data & Backups
+# ----------------------------
 data/
 backup/
 model/silver_guard_backup.zip
 model/silver_guard_flutter.zip
+
+# ----------------------------
+# Model Files
+# ----------------------------
+model/silver_guard.onnx
+model/vocab.txt
+model/*.json
+
+# ----------------------------
+# Environment & Secrets
+# ----------------------------
 kaggle.json
 *.env
 .venv/
-model/silver_guard.onnx
